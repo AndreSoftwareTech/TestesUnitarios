@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestsNUnit", "TestsNUnit", "{A2CA5A09-FBA8-49EC-83C0-E5E1CFF580BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestsMoq", "TestsMoq", "{0A4DEDE2-FC9E-4740-A3CF-FCBF510AD442}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestsTDD", "TestsTDD", "{164CB013-F666-494D-8C58-E8C118A68F35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FE2B6D4B-33DE-4CE4-B774-4B670A6D9374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta", "Conta\Conta.csproj", "{A7C7D1B2-04E3-40A7-A0B3-218CAA1818A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaTests", "ContaTests\ContaTests.csproj", "{6B197543-DC5A-42B4-9CCF-B42A6E29379D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7C7D1B2-04E3-40A7-A0B3-218CAA1818A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C7D1B2-04E3-40A7-A0B3-218CAA1818A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C7D1B2-04E3-40A7-A0B3-218CAA1818A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C7D1B2-04E3-40A7-A0B3-218CAA1818A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B197543-DC5A-42B4-9CCF-B42A6E29379D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B197543-DC5A-42B4-9CCF-B42A6E29379D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B197543-DC5A-42B4-9CCF-B42A6E29379D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B197543-DC5A-42B4-9CCF-B42A6E29379D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7C7D1B2-04E3-40A7-A0B3-218CAA1818A7} = {FE2B6D4B-33DE-4CE4-B774-4B670A6D9374}
+		{6B197543-DC5A-42B4-9CCF-B42A6E29379D} = {A2CA5A09-FBA8-49EC-83C0-E5E1CFF580BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {333E5A79-8781-4264-836E-9401C5692E23}
+	EndGlobalSection
+EndGlobal
